@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  </head>
+
+<body>
+  <main>
+    <header id="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css image" id="header-img"/>
+      <h1>CSS Masters</h1>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#video">How we work</a>
+        <a class="nav-link" href="#contacts">About Us</a>
+      </nav>
+    </header>
+    
+    <h2>Your page is in the right hands</h2>
+    
+    <form action="https://www.freecodecamp.org/email-submit" method="POST" id="form">
+      <label for="email">Get in contact with us!</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      <input type="submit" id="submit" name="submit" value="Get Started">
+    </form>
+
+    <div class="features" id="features">
+      <div class="box"> 
+        <span class="material-symbols-outlined">
+        iframe
+        </span>
+        <div class="text">
+        <h3>Personalize your page</h3>
+        <p>Send it your sketch and we'll bring it to life! We will make the CSS and HTML code required for it to work.
+        </div>
+      </div>
+      <div class="box">
+        <span class="material-symbols-outlined">
+        schedule
+        </span>
+        <div class="text">
+        <h3>Deadlines</h3>
+        <p>After taking a look at your sketch, we will give you the time required to make it. This may vary depending on the size of the website.</p> 
+        </div>
+      </div>
+      <div class="box">
+        <span class="material-symbols-outlined">
+        add_task
+        </span>
+        <div class="text">
+        <h3>Quality Assurance</h3>
+        <p>In case you're not satisfied with the final result, or had any extras that you'd like to add, we will make the changes as you see fit free of charge!</p>
+        </div>
+      </div>
+    </div>
+    <div id="video-part">
+        <h3>How we work</h3>
+        <iframe id="video" src="https://www.youtube.com/embed/lKcy4hLvzgI?si=X75xBwlDvn_BhFvt" title="YouTube video player" allowfullscreen>
+        </iframe>
+    </div>
+    
+    <footer id="contacts">
+      <p>CSS Masters, 2026</p>
+      <div class="foot-links">
+      <a href="#">Contact</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
